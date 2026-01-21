@@ -83,7 +83,7 @@ _start:
     // After your code, X6 MUST equal exactly 100 for the autograder to pass.
     //
     // YOUR CODE HERE:
-    MUL X6, X5, #10
+    MUL X6, X5, X5
 
 
     // =========================================================================
