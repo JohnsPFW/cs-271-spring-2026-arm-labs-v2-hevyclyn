@@ -83,7 +83,16 @@ _start:
     // After your code, X6 MUST equal exactly 100 for the autograder to pass.
     //
     // YOUR CODE HERE:
-    MUL X6, X5, X5
+    MOV X6, #0
+    ADD X6, X6, X0 // 10
+    MOV X1, #0
+    ADD X6, X6, X0 // 20
+    ADD X1, X1, X6 // 20
+    ADD X6, X6, X6 // 40
+    ADD X1, X1, X6 // 60
+    ADD X6, X6, X6 // 80
+    ADD X6, X6, X6 // 160
+    SUB X6, X6, X1 // 100
 
 
     // =========================================================================
