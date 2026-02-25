@@ -8,7 +8,8 @@
         "vscode": {
             "extensions": [
                 "mshr-h.Verilog-HDL-Support",
-                "surfer-project.surfer"
+                "surfer-project.surfer",
+                "dan-c-underwood.arm"
             ]
         }
     },
