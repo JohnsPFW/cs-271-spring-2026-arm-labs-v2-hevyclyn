@@ -134,7 +134,7 @@ This means you can build any 64-bit constant by chaining one `MOVZ` followed by 
 Because of this bit-pattern replication rule, you cannot use *any* arbitrary 64-bit number as an immediate for logical instructions.
 
 **Exercise:**
-
+ 
 The provided `test_lab02.s` contains the following code:
 ```asm
 .global _start
